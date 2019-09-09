@@ -1,0 +1,22 @@
+{
+    "title": "Qui suis-je?",
+    "contact": "Quelques choses à dire ? C'est juste en dessous, sauf si tu es un bot...",
+    "send": "Envoyer",
+    "message": "Message",
+    "failure": "Impossible d'envoyer le message",
+    "success": "Le message a été envoyé",
+    "placeholder": "À quoi penses-tu? Peu importe, que ce soit pour les affaires ou juste pour discuter de mon parcours, je vais y répondre ! À condition que tu fournis une adresse électronique valide du moins...",
+    "name": "Nom",
+    "email": "Email",
+    "copyright": "© <b>{{date}}</b> - Tous droits réservés - Réalisé par moi-même",
+    "events": [
+        "'93: La naissance d'un geek",
+        "'11-'16: Gradué d'<a href='http://www.epitech.eu'>Epitech</a> à Rennes et découvre ma passion pour le C++",
+        "'14: La famille s'agrandit avec l'arrivée de mon chat d'amour",
+        "'15: Étudie l'ingénierie logicielle à Pékin pendant une année",
+        "'16: Signe mon premier contrat professionel en tant que développeur C++, rejoint <a href='https://www.pagesjaunes.fr/'>PagesJaunes Digital</a> et développe une librairie de <a href='https://github.com/alekece/common/'>meta-programmation en C++14</a>",
+        "'17: Rencontre la plus jolie femme de ma vie, participe aux concours <a class='link' href='https://codingame.com'>CodinGame</a> et rejoint <a href='https://www.enensys.com/'>ENENSYS Technologies</a>",
+        "'18: Construit de A à Z (design 3D, matériel et logiciel) une gamelle connectée pour chat, développe le site <a href='http://www.hubertagri.fr/'>Hubert Agri</a>, part à Tours et rejoint <a href='https://www.wabtec.com/'>Faiveley Transport</a>",
+	"'19: Part à Paris et commence la grande aventure des cryptomonnaies en rejoignant <a href='https://ledger.com'>Ledger</a>"
+    ]
+}

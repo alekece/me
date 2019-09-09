@@ -1,0 +1,22 @@
+{
+    "title": "Who is 'ME'?",
+    "contact": "Some things to say? It's right below unless you're a bot...",
+    "send": "Send message",
+    "failure": "Cannot send the message",
+    "success": "The message has been sent",
+    "placeholder": "What do you have in mind? No matter, whether for business or just to discuss about my background, I'll answer it ! If you provide a valid email address at least...",
+    "message": "Message",
+    "name": "Name",
+    "email": "Email",
+    "copyright": "© <b>{{date}}</b> - All rights reserved - Realized by my-self",
+    "events": [
+        "'93: A geek is born",
+        "'11-'16: Graduated <a href='http://www.epitech.eu'>Epitech</a> at Rennes and fell in love with C++ language",
+        "'14: Family grew with the arrival of my lovely cat",
+        "'15: Studied software engineering in beijing for a year",
+        "'16: Signed my first professional contract as C++ software engineer, joined <a href='https://www.pagesjaunes.fr/'>PagesJaunes Digital</a> and developed <a href='https://github.com/alekece/common/'>meta-programming C++14 library</a>",
+        "'17: Met the most beautiful woman of my life, took part of <a href='https://www.codingame.com'>CodinGame</a> challenge and joined <a href='https://www.enensys.com/'>ENENSYS Technologies</a>",
+        "'18: Built from scratch (3D design, hardware and software) connected bowl for cat, developed <a href='http://www.hubertagri.fr/'>Hubert Agri</a> website, moved to Tours and joined <a href='https://www.wabtec.com/'>Faiveley Transport</a>",
+    	"'19: Moved to Paris and started the cryptocurrency adventure by joining <a href='https://ledger.com'>Ledger</a>" 
+    ]
+}

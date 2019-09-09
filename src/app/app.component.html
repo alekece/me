@@ -1,0 +1,40 @@
+<main fxLayout="column" fxLayoutAlign="end center" fxLayoutFill>
+  <div fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="center end" fxLayoutGap="50px" >
+    <section fxLayout="column" fxLayoutGap="32px">
+      <h1>{{ "title" | translate }}</h1>
+      <ul>
+        <li *ngFor="let event of events" [innerHTML]="event"></li>
+      </ul>
+      <h2>{{ "contact" | translate}}</h2>
+      <form fxLayout="column" fxLayoutGap="24px" (ngSubmit)="send(contactForm)" [formGroup]="form" #contactForm="ngForm" novalidate>
+        <div fxLayout="column" fxLayoutGap="8px">
+          <label>{{'name' | translate}}<span class="required">*</span></label>
+          <input type="text" formControlName="name"/>
+        </div>
+        <div fxLayout="column" fxLayoutGap="8px">
+            <label>{{'email' | translate}}<span class="required">*</span></label>
+            <input type="email" formControlName="email"/>
+        </div>
+        <div fxLayout="column" fxLayoutGap="8px">
+          <label>{{'message' | translate}}<span class="required">*</span></label>
+          <textarea rows="10" placeholder="{{'placeholder' | translate}}" formControlName="message" required></textarea>
+        </div>
+        <button fxFlexAlign="start" mat-raised-button color="primary" type="submit" [disabled]="!contactForm.form.valid">
+          <div fxLayout="row" fxLayoutGap="10px">
+            <span>{{"send" | translate}}</span>
+            <mat-progress-spinner color="primary" mode="indeterminate" value="50" diameter="25" *ngIf="contactForm.submitted"></mat-progress-spinner>
+          </div>
+        </button>
+      </form>
+    </section>
+    <aside class="image" fxFlexAlign="end" fxFlexAlign.lt-md="center">
+      <img fxHide fxShow.gt-md fxFlexAlign="end" src="assets/me_lg.png">
+      <img fxHide fxShow.md fxFlexAlign="end" src="assets/me_md.png">
+      <img fxHide fxShow.sm fxFlexAlign="end" src="assets/me_sm.png">
+      <img fxHide fxShow.lt-sm fxFlexAlign="end" src="assets/me_xs.png">
+    </aside>
+  </div>
+</main>
+<footer fxLayout="column" fxLayoutAlign="start center">
+  <span innerHTML="{{'copyright' | translate:{'date': date} }}"></span>
+</footer>

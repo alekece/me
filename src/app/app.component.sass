@@ -1,0 +1,61 @@
+main
+    overflow: hidden
+    margin: 0 auto
+    button
+        background-color: #2e353a
+        border: none
+        color: #ecf0f1
+        font-size: 18px
+        font-family: lato
+        padding: 15px 20px
+        &:not([disabled])
+            background-color: #e55039
+            &:active, &:focus
+                outline: none
+            &:hover
+                cursor: pointer
+                transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1)
+                box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12)
+    section
+        max-width: 700px !important
+        @media screen and (max-width: 1279px)
+            margin: 0 auto
+
+    form
+        padding: 0 30px 0 20px
+        input
+            height: 28px
+        input, textarea
+            background-color: #ecf0f1
+            font-size: 18px
+            font-family: lato
+            outline: none
+            border: none
+        .required
+            color: #e55039
+    section
+        padding: 32px
+        ul
+            margin: 0
+        li
+            padding: 5px 0
+        h1
+            font-family: pixelate
+            font-size: 64px
+            margin-top: 0
+        h2
+            font-family: pixelate
+            font-size: 32px
+            margin: 0
+    form
+        textarea
+            resize: vertical
+    img
+        position: relative
+        bottom: -4px
+footer
+    color: #1e272e
+    font-family: lato
+    background-color: #ecf0f1
+    padding: 10px 0
+    font-size: 14px
