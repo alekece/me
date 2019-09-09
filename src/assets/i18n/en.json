@@ -10,13 +10,14 @@
     "email": "Email",
     "copyright": "© <b>{{date}}</b> - All rights reserved - Realized by my-self",
     "events": [
-        "'93: A geek is born",
+        "'93: A new geek has entered the life",
         "'11-'16: Graduated <a href='http://www.epitech.eu'>Epitech</a> at Rennes and fell in love with C++ language",
         "'14: Family grew with the arrival of my lovely cat",
         "'15: Studied software engineering in beijing for a year",
         "'16: Signed my first professional contract as C++ software engineer, joined <a href='https://www.pagesjaunes.fr/'>PagesJaunes Digital</a> and developed <a href='https://github.com/alekece/common/'>meta-programming C++14 library</a>",
-        "'17: Met the most beautiful woman of my life, took part of <a href='https://www.codingame.com'>CodinGame</a> challenge and joined <a href='https://www.enensys.com/'>ENENSYS Technologies</a>",
-        "'18: Built from scratch (3D design, hardware and software) connected bowl for cat, developed <a href='http://www.hubertagri.fr/'>Hubert Agri</a> website, moved to Tours and joined <a href='https://www.wabtec.com/'>Faiveley Transport</a>",
-    	"'19: Moved to Paris and started the cryptocurrency adventure by joining <a href='https://ledger.com'>Ledger</a>" 
+        "'17: Met my beautiful woman, took part of <a href='https://www.codingame.com'>CodinGame</a> challenge and joined <a href='https://www.enensys.com/'>ENENSYS Technologies</a>",
+        "'18: Built from scratch (3D, hardware and software) food dispenser, developed <a href='http://www.hubertagri.fr/'>Hubert Agri</a> website, moved to Tours and joined <a href='https://www.wabtec.com/'>Faiveley Transport</a>",
+    	"'19: Moved to Paris and started the cryptocurrency adventure by joining <a href='https://ledger.com'>Ledger</a>",
+        "'20: Built my first <a href='https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard'>mechanical keyboard</a> and learned dactylography"
     ]
 }
