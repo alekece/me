@@ -5,11 +5,9 @@
 * [How to use it](#how-to-use-it)
 * [License](#license)
 
-[Me](http://me.alekece.site) is my showcase website; feel free to use as a scaffolder for your one.
-
 ## Requirements
-* nodejs
-* npm
+* [nodejs](https://nodejs.org)
+* [npm](https://www.npmjs.com)
 
 This project is based on **_angular_** as a build system so you should install it before starting.
 
